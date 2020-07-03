@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS CITIES;
+CREATE TABLE CITIES(id serial PRIMARY_KEY, name VARCHAR(225), population integer);
